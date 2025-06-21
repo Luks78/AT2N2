@@ -19,3 +19,16 @@ e para rodar o jogo:
 em termos mais técnicos, as funções principais deste código são "sortear carta()"
 pois sorteia ou remove uma carta aleatória do baralho
 o "Main()" no qual faz a exibição do menu e controla o fluxo do programa, entre outras
+
+Aqui está uma descrição mais leve e acessível do jogo de cartas em C:
+Elementos do Jogo: A struct é usada para organizar as informações das cartas e dos jogadores.
+
+Organização do Baralho: As cartas são mantidas numa lista, o que torna o manuseio mais fácil.
+
+Aleatoriedade: A função rand() é usada para criar um embaralhamento e sorteio aleatórios.
+
+Registro de Pontuação: Os resultados são guardados no arquivo placar.txt para histórico.
+
+Opções Iniciais: Logo ao abrir, você escolhe entre iniciar uma partida ou ver a pontuação.
+
+Em resumo: é um jogo simples, com cartas aleatórias e registro de pontos. Nada de muito complexo.
